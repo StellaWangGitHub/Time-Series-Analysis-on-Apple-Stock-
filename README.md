@@ -4,7 +4,7 @@ June 25 : • Uploaded the R file. I used ARIMA models to train the data, used v
 
 Introduction:
 
-The data collected is the apple stock data from Specifically, the variables include Date, Opening Price, High Price of the Day, Low Price of the Day, Closing Price, Adjusted Closing Price, and Volume. The data was taken from Yahoo Finance. We are interested in exploring the properties of the volume of this dataset and determining if it has any time series properties.
+The data collected is the apple stock data, the variables include Date, Opening Price, High Price of the Day, Low Price of the Day, Closing Price, Adjusted Closing Price, and Volume. The data was taken from Yahoo Finance. We are interested in exploring the properties of the volume of this dataset and determining if it has any time series properties.
 
 Time Series Analysis:
 
@@ -14,7 +14,7 @@ Plotting the ACF against the lag for the daily volume, we see that the ACF tails
 
 After plotting the PACF against the lag for the daily volume, we see that the PACF is significant at lag 1.
 
-Use Box-Pierce test to decide whether series appears to be realization from a white noise process. Since p-value is less than 2.2e-16 which is super small, then we may conclude the series doesn't appear to be a realization from a white noise process.
+Use Box-Pierce test to decide whether series appears to be realization from a white noise process. Since p-value is less than 2.2e-16 which is super small,  there is strong evidence that null hypothesis is false, so we reject null hypothesisthen that the series appears to be normalized , and so the series doesn't appear to be normalized (not a white noise process).
 
 Apply first difference operator to the time series that might reasonably be expected to remove the non-stationary component. After applying the first difference, we can see that there is non-seasonal and no trend.
 
