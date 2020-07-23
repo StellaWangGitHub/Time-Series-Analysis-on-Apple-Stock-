@@ -32,7 +32,9 @@ ARIMA(2,0,4): test error 3048.481, aic = 1010.41
 ARIMA(4,0,2): test error 3017.495, aic = 1010.71 
 AR(2):        test error 2994.125, aic = 1006.16
 
-Choose AR(2) since the test error and aic are both the smallest.
+Choose AR(2) since the test error (sum of square error) and aic are both the smallest amoung the three ARIMA models.
+
+We use AR(2) to predict the following two days opening price which are 265.4167 and 265.9059
 
 
 
