@@ -32,7 +32,7 @@ AR(2):        test error 2994.125, aic = 1006.16
 
 Choose AR(2) since the test error (sum of square error) and aic are both the smallest amoung the three ARIMA models.
 
-We use AR(2) to predict the following two days opening price which are 265.4167 and 265.9059
+We use AR(2) to predict the following two days (March 16, 2020 and March 17, 2020) opening price which are 265.4167 (true opening: 241.95)and 265.9059(true opening:247.51)respectively.
 
 
 
