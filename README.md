@@ -36,4 +36,4 @@ We use AR(2) to predict the following two days opening price which are 265.4167 
 
 
 
-Future Step: • Start to learn PyTorch to train the dataset. It's probably going to be fun!
+Future Step: • Start to learn deep learning methods (LSTM) to train the dataset. It's going to be fun!
