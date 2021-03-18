@@ -4,7 +4,7 @@ June 25 : • Uploaded the R file. I used ARIMA models to train the data, used v
 
 Introduction:
 
-The data collected is the apple stock data, the variables include Date, Opening Price, High Price of the Day, Low Price of the Day, Closing Price, Adjusted Closing Price, and Volume. The data was taken from Yahoo Finance. We are interested in exploring the properties of the volume of this dataset and determining if it has any time series properties.
+The data collected is the apple stock data, the variables include Date, Opening Price, High Price of the Day, Low Price of the Day, Closing Price, Adjusted Closing Price, and Volume. The data was taken from Yahoo Finance. We are interested in exploring the properties of the open index of this dataset and determining if it has any time series properties.
 
 Time Series Analysis:
 
