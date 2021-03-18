@@ -10,9 +10,9 @@ Time Series Analysis:
 
 From the raw plot, we may say that there is some kind of cyclical effect and does not have a trend until near the end.
 
-Plotting the ACF against the lag for the daily volume, we see that the ACF tails off at a moderate rate and is significant till lag 71 .
+Plotting the ACF against the lag for open , we see that the ACF tails off at a moderate rate and is significant till lag 71 .
 
-After plotting the PACF against the lag for the daily volume, we see that the PACF is significant at lag 1.
+After plotting the PACF against the lag for open , we see that the PACF is significant at lag 1.
 
 Use Box-Pierce test to decide whether series appears to be realization from a white noise process. Since p-value is less than 2.2e-16 which is super small,  there is strong evidence that null hypothesis is false, so we reject null hypothesisthen that the series appears to be normalized , and so the series doesn't appear to be normalized (not a white noise process).
 
